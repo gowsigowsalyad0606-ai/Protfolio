@@ -26,9 +26,8 @@ export default function Hero() {
 
       <div className="relative z-10 text-center max-w-5xl">
         <motion.p
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 1, y: 0 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
           className="text-accent font-bold tracking-[0.2em] mb-4 text-sm"
         >
           GOWSALYA.D | SOFTWARE DEVELOPER
@@ -40,9 +39,8 @@ export default function Hero() {
         />
 
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 1, y: 0 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 1 }}
           className="flex flex-col md:flex-row items-center justify-center gap-6"
         >
           <a

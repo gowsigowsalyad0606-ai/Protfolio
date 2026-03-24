@@ -20,8 +20,8 @@ export const Reveal = ({ children, width = "fit-content", delay = 0.2 }: RevealP
           hidden: { opacity: 0, y: 60 },
           visible: { opacity: 1, y: 0 },
         }}
-        initial="hidden"
-        animate={isInView ? "visible" : "hidden"}
+        initial="visible"
+        animate={isInView ? "visible" : "visible"}
         transition={{
           duration: 0.8,
           delay,

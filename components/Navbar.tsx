@@ -14,9 +14,8 @@ const navLinks = [
 export default function Navbar() {
   return (
     <motion.header
-      initial={{ y: -100, opacity: 0 }}
+      initial={{ y: 0, opacity: 1 }}
       animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
       className="fixed top-0 left-0 w-full z-50 px-6 py-6"
     >
       <nav className="max-w-7xl mx-auto flex items-center justify-between backdrop-blur-md bg-white/5 border border-white/10 rounded-full px-8 py-3">

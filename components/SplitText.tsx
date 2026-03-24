@@ -42,7 +42,7 @@ export const SplitText = ({ text, delay = 0, className = "" }: SplitTextProps) =
     <motion.div
       style={{ overflow: "hidden", display: "flex", flexWrap: "wrap" }}
       variants={container}
-      initial="hidden"
+      initial="visible"
       whileInView="visible"
       viewport={{ once: true }}
       className={className}
